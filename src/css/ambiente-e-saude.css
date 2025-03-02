@@ -3,7 +3,7 @@ body, html {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     height: 100%;
-    overflow: hidden; /* Para esconder qualquer barra de rolagem */
+     overflow: hidden; /*Para esconder qualquer barra de rolagem */
   }
   
   header {
@@ -15,47 +15,57 @@ body, html {
     padding: 1rem 0;
     z-index: 100;
   }
-  
-  header .head {
-    padding: 20px;
-  }
-  
-  header h1 {
-    margin: 0;
-  }
-  
-  header p {
-    margin-top: 0;
+
+  footer {
+    display: contents;
   }
 
-  p, h3 {
-    color: #ffffff;
+  .inicio {
+    all:unset;
+    background-color: #a5a7a5;
+    border-radius: 10px 0px 10px 0px;
+    padding: 5px;
   }
 
-  .info{
-    margin: 1rem;
-    border-radius: 10px;
-    background-color: #75747415;
+  .lista {
+    margin-top: 180px;
+    margin-right: 30px;
+    border-color: #333;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding:1rem;
-    margin-top: 15rem;
+    display: flex;
   }
-  
+
+  .inscricao {
+     all:unset;
+     background-color: #74f099;
+     a {
+      color: #000;
+     }
+     padding: 5px;
+     border-radius: 10px;
+
+  }
+
+
+  img {
+    max-width: 200px;
+
+  }
+
+  .lista .curso h2 {
+    color: #353333;;
+    background-color: #9fa3a1;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
   a {
     text-decoration: none;
     color: #fff;
   }
-  
-  #addEventButton {
-    background-color: #74f099;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-  }
-  
+
   #video-background {
     position: fixed;
     width: 120%;
