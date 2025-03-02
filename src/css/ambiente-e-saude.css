@@ -35,6 +35,9 @@ body, html {
     justify-content: center;
     text-align: center;
     display: flex;
+    .pic{
+      max-width: 400px;
+     }
   }
 
   .inscricao {
